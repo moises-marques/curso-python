@@ -62,8 +62,12 @@ x={
    
    
    
-x={5,7,4,5,7,4,8}   #Tipo set é dedicado com as chaves -> {}, 
+x={5,7,4,5,7,4,8}  
+x=frozenset({5,7,4,5,7,4,8}) #set
+print("Valor: "+str(x))
+print("Tipo: "+str(type(x)))
+#Tipo set é dedicado com as chaves -> {}, 
 #onde adiciona os elementos, onde não repete valores. 
 # como execultar o Tipo set. Ex print("Valor: "+str(x))
-print("Valor: "+str(x))
-print("Tipo: "+str(type(x))) #type, retorna o tipo do objeto
+#print("Valor: "+str(x))
+#print("Tipo: "+str(type(x))) #type, retorna o tipo do objeto
